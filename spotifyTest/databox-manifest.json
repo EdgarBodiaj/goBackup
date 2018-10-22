@@ -1,0 +1,34 @@
+{
+	"manifest-version": 1,
+
+	"name": "spotify-history-driver",
+	"databox-type": "driver",
+	"version": "latest",
+
+	"description": "A driver to gather information about your spotify play history.",
+	"author": "Edgar Bodiaj <Edgar.Bodiaj@nottingham.ac.uk>",
+	"license": "MIT",
+	"tags": [
+		"spotify",
+		"history",
+		"driver",
+		"databox"
+	],
+	"homepage": "https://github.com/EdgarBodiaj/spotTest",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EdgarBodiaj/spotTest/"
+	},
+	"external-whitelist": [
+		{
+			"urls": [
+				"https://accounts.spotify.com/api/token",
+				"https://accounts.spotify.com/authorize"
+			]
+		}
+	],
+	"resource-requirements": {
+		"store": "core-store"
+	}
+
+}
